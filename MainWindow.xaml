@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <local:MyTextBox XPressed="MyTextBox_OnXPressed1"></local:MyTextBox>
+        <local:MyTextBox Grid.Row="2" x:Name="TextBox2"></local:MyTextBox>
     </Grid>
 </Window>

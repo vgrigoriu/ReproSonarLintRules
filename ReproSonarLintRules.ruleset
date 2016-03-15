@@ -72,12 +72,13 @@
     <Rule Id="S1117" Action="None" />
     <Rule Id="S1118" Action="None" />
     <Rule Id="S1134" Action="None" />
-    <Rule Id="S1144" Action="None" />
+    <Rule Id="S1144" Action="Warning" />
     <Rule Id="S1145" Action="None" />
     <Rule Id="S1155" Action="None" />
     <Rule Id="S1172" Action="None" />
     <Rule Id="S1185" Action="None" />
     <Rule Id="S1244" Action="None" />
+    <Rule Id="S125" Action="None" />
     <Rule Id="S1449" Action="None" />
     <Rule Id="S1481" Action="None" />
     <Rule Id="S1643" Action="None" />
